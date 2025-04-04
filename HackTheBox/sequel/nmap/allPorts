@@ -1,0 +1,5 @@
+# Nmap 7.94SVN scan initiated Tue Mar 18 18:23:35 2025 as: nmap -p- --open -sS --min-rate 5000 -vvv -n -Pn -oG allPorts 10.129.2.223
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.129.2.223 ()	Status: Up
+Host: 10.129.2.223 ()	Ports: 3306/open/tcp//mysql///
+# Nmap done at Tue Mar 18 18:23:52 2025 -- 1 IP address (1 host up) scanned in 16.34 seconds

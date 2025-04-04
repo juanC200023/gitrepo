@@ -1,0 +1,13 @@
+# Nmap 7.93 scan initiated Thu Oct 26 21:59:25 2023 as: nmap --script http-enum -p80 -oN webScan 192.168.1.24
+Nmap scan report for 192.168.1.24
+Host is up (0.00037s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+| http-enum: 
+|   /admin/admin.php: Possible admin folder
+|   /login.php: Possible admin folder
+|_  /robots.txt: Robots file
+MAC Address: 00:0C:29:FB:29:24 (VMware)
+
+# Nmap done at Thu Oct 26 21:59:26 2023 -- 1 IP address (1 host up) scanned in 1.01 seconds

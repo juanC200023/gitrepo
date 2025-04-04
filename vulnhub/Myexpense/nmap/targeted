@@ -1,0 +1,26 @@
+# Nmap 7.93 scan initiated Thu Oct 26 21:54:43 2023 as: nmap -sCV -p80,42193,45739,51015,53063 -oN targeted 192.168.1.24
+Nmap scan report for 192.168.1.24
+Host is up (0.00082s latency).
+
+PORT      STATE SERVICE VERSION
+80/tcp    open  http    Apache httpd 2.4.25 ((Debian))
+|_http-server-header: Apache/2.4.25 (Debian)
+| http-cookie-flags: 
+|   /: 
+|     PHPSESSID: 
+|_      httponly flag not set
+|_http-title: Futura Business Informatique GROUPE - Conseil en ing\xC3\xA9nierie
+| http-robots.txt: 1 disallowed entry 
+|_/admin/admin.php
+42193/tcp open  http    Mongoose httpd
+|_http-title: Site doesn't have a title (text/plain).
+45739/tcp open  http    Mongoose httpd
+|_http-title: Site doesn't have a title (text/plain).
+51015/tcp open  http    Mongoose httpd
+|_http-title: Site doesn't have a title (text/plain).
+53063/tcp open  http    Mongoose httpd
+|_http-title: Site doesn't have a title (text/plain).
+MAC Address: 00:0C:29:FB:29:24 (VMware)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Oct 26 21:54:50 2023 -- 1 IP address (1 host up) scanned in 6.85 seconds

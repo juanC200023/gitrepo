@@ -1,0 +1,15 @@
+# Nmap 7.94SVN scan initiated Tue Mar 18 19:31:01 2025 as: nmap -p80,5985 -sCV -oN targeted 10.129.142.171
+Nmap scan report for 10.129.142.171
+Host is up (0.17s latency).
+
+PORT     STATE SERVICE VERSION
+80/tcp   open  http    Apache httpd 2.4.52 ((Win64) OpenSSL/1.1.1m PHP/8.1.1)
+|_http-server-header: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1
+|_http-title: Site doesn't have a title (text/html; charset=UTF-8).
+5985/tcp open  http    Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Not Found
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Mar 18 19:31:14 2025 -- 1 IP address (1 host up) scanned in 13.04 seconds

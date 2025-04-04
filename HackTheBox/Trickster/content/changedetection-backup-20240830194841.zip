@@ -1,0 +1,11 @@
+bash: cannot set terminal process group (1): Inappropriate ioctl for device
+bash: no job control in this shell
+root@a4b9a36ae7ff:/app# 
+root@a4b9a36ae7ff:/app# whoami
+root
+root@a4b9a36ae7ff:/app# sadas
+bash: sadas: command not found
+root@a4b9a36ae7ff:/app# 
+root@a4b9a36ae7ff:/app# 
+root@a4b9a36ae7ff:/app# 
+root@a4b9a36ae7ff:/app# 
